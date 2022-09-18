@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="#FA8131"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity5">
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/logo"
+        android:padding="30dp"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Restaurante Kotlin"
+        android:textSize="15dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:padding="10dp"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="© Rojo Amparo Daniel Alejandro"
+        android:textSize="15dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:padding="10dp"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="No. Control 17401071"
+        android:textSize="15dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:padding="10dp"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lab. De Ap. Dispositivos Moviles"
+        android:textSize="15dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:padding="10dp"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Av. Tecnológico # 2595, Col. Lagos del Country"
+        android:textSize="15dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:padding="10dp"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Regresar"
+        android:id="@+id/regresar"
+        android:layout_gravity="center"/>
+
+</LinearLayout>
